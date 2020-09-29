@@ -223,3 +223,8 @@ h4.dms-heading {
 .dms-select-options .option:hover {
   background-color: var(--select-option-hover-background-color);
 }
+
+.dmn-js-parent .content-editable--with-placeholder:not(:focus):before {
+  content: attr(placeholder);
+  opacity: 0.5;
+}
